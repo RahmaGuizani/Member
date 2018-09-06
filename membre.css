@@ -1,0 +1,171 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main{
+    width: 100%;
+}
+    #hello_section{
+    background-image: url("hello.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height:50vw;
+    width:100vw;
+}
+nav{
+    padding: 0vw 6vw 0vw 6vw;
+    }
+.nav_acceuil{color:yellowgreen;}
+ul{list-style-type: none;}
+.txt{color: white;
+        font-size: 25px;}
+#Newslettre{background-color: whitesmoke;
+        }
+ .txt_hello{ border-style: solid; 
+            border-color :wheat;
+            -webkit-border-radius: 0.8em;
+            -moz-border-radius: 0.8em;
+            border-radius: 0.8em;
+           width:500px;
+        position: relative;
+        top:20vw;
+        left:10vw;}
+        .news_lettre{position: relative;
+            left :25vw;}
+            .titre{position: relative;
+                left :13vw;}
+                #email{  font-size:25px;  
+                    margin-bottom: 1em;
+                    border-style: solid; 
+                    -webkit-border-radius: 0.333em;
+                    -moz-border-radius: 0.333em;
+                    border-radius: 0.333em;
+                    border-color:whitesmoke ;
+            }
+            .email-icone {  font-size: 30px;
+                position:relative ;
+                left:33vw;
+            }
+            .Name{color:rgb(242, 118, 38);
+                font-size: 20px;
+                position: relative;
+                left:12vw;
+                top:1.5vw;}
+            .footer{background-color: black;
+            }
+        .footer-copyright{color:rgb(156, 187, 216);
+        }
+    
+
+
+#inscription{
+    
+background-image: url("inscri.jpg");
+background-size: cover;
+background-repeat: no-repeat ;
+}
+
+#connection{
+background-image: url("connecter.jpg");
+background-size: cover;
+background-repeat: no-repeat ;
+height: 550px;
+}
+nav{
+padding: 0vw 6vw 0vw 6vw;
+}
+.nav_acceuil{color:yellowgreen;}
+ul{list-style-type: none;}
+
+
+
+.txt2{
+    position: relative;
+    top:10vw;}
+
+
+     
+
+#submit{width: 20vw;
+    height: 3vw;
+    border-radius: 0.333em; 
+    background-color:gainsboro;}
+.input-group { padding: 0.9vw;
+   width: 40vw;
+}
+.choice{padding:2vw;}
+.footer{background-color: black;
+    }
+.footer-copyright{color:rgb(156, 187, 216);
+}
+.green{color:greenyellow;}
+.input-group-addon{background-color: #145784;}
+.input-group  {margin-left: 50vw;}
+.checkbox-inline{margin-left: 55vw;}
+.checkbox-inline2{margin-left: 55vw;}
+#submit{margin-left: 55vw;
+margin-top: 1vw;}
+.inscrit{margin-top: 2vw;}
+#eresult1{ margin-left: 55vw;}
+#eresult2{ margin-left: 55vw;}
+#eresult3{ margin-left: 55vw;}
+#eresult4{ margin-left: 55vw;}
+#eresult5{ margin-left: 55vw;}
+#eresult6{ margin-left: 55vw;}
+#eresult7{ margin-left: 55vw;}
+.titre_inscr{
+    margin-bottom: 10px;
+    margin-left: 52vw;}
+.inscrit0{margin-left: 64vw;}
+@media  (max-width: 475px){
+    main{
+        width: 100vw;
+    }
+    #hello_section {
+        background-color: azure ;}
+    nav{
+        padding: 0vw 6vw 0vw 6vw;
+        width:20vw ;
+        }
+    .navbar navbar-default{width: 100px;}
+    .nav_acceuil{color:yellowgreen;}
+    ul{list-style-type: none;}
+        .txt{color: red;
+            font-size: 25px;}
+            #Newslettre{background-color: whitesmoke;
+                visibility: hidden;
+            }
+            .txt_hello{ border-style: solid; 
+                border-color :wheat;
+                -webkit-border-radius: 0.8em;
+                -moz-border-radius: 0.8em;
+                border-radius: 0.8em;
+               width:15px;
+            position: relative;
+            top:20vw;
+            left:10vw;}
+            .news_lettre{position: relative;
+                left :25vw;}
+                .titre{position: relative;
+                    left: 10vw;
+                    }
+                   
+                    #email{  font-size:250px;  
+                        margin-bottom: 1em;
+                        border-style: solid; 
+                        -webkit-border-radius: 0.333em;
+                        -moz-border-radius: 0.333em;
+                        border-radius: 0.333em;
+                        border-color:whitesmoke ;
+                }
+                .email-icone {  font-size: 30px;
+                    position:relative ;
+                    left:33vw;
+                }
+                .Name{color:rgb(242, 118, 38);
+                    font-size: 20px;
+                    position: relative;
+                    left:12vw;
+                    top:1.5vw;}
+             
+        }

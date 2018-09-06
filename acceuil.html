@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <html> 
+   <head> 
+      <link rel="stylesheet" href="membre.css">
+    
+      
+        <script type="text/javascript" src="membre.js"></script>
+  <title> Javascript form validation </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        
+   <meta charset="utf-8"> <!--tebda biha el programme bech ta3ml les titre -->
+   <meta name="viewport" content="width-device-width", initial-scale=1">
+   </head> 
+ 	<!--body nekteb fih contunu-->
+ 	<body> 
+ 	<header>
+      <nav class="navbar navbar-default ">
+              <a class="navbar-brand" href="#">ESPACE MEMBRE</a>
+            <ul class="nzaavbar-nav mr-auto">
+              <li><a  class="navbar-brand" href="acceuil.html">ACCEUIL</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a  href="inscri.html">S'INSECRIRE</a></li>
+              <li><a href="connect.html">SE CONNECTER</a></li>
+            </ul>
+        </nav>
+  </header> 
+  <main>  
+
+      <section id="hello_section">
+          <div class="txt_hello">
+            <p class="Name">GUIZANI RAHMA</p><br>
+            <p class="txt">"  Bienvenue,vous étes maintenant connecté dans notre espace membre. "</p>  
+          </div>
+        </section>
+        <section id="Newslettre">
+            <div class="news_lettre">
+                <h1 class="titre">Newslettre</h1><br>
+                <p class="txt_lettre">Abonnez-vous à notre newsletter pour les derniéres nouvelles, promotion et offres. </p>  
+              </div>
+              <form  action=" " name="frm1" method="" onsubmit="return validate_email()" >
+                  <div class ="email-icone">
+                  <input id="email" name="email_id" type="email" class="input_email" placeholder="Entrer email" aria-required="true" aria-invalid="false" onblur="validatemail1()"> 
+                </form>
+                  <a href="#">
+                      <span class="glyphicon glyphicon-envelope"></span>
+                    </a>
+                    <div id="eresult3" style="color:red"> </div> </div>
+                  <!--  <p><input type="submit" value="Send" class="submitsend" size="10"></p>-->
+            
+          </section>
+        
+             </main>
+             <!-- Footer -->
+        <footer class="footer">
+          <!-- link facebook -->
+            <div class="container">
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-fb mx-1">
+                    <i class="fa fa-facebook"> </i>
+                  </a>
+                </li>
+        <!-- link twitter -->
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-tw mx-1">
+                    <i class="fa fa-twitter"> </i>
+                  </a>
+                </li>
+        <!-- link google -->
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-gplus mx-1">
+                    <i class="fa fa-google-plus"> </i>
+                  </a>
+                </li>
+        <!-- link facebook -->
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-li mx-1">
+                    <i class="fa fa-linkedin"> </i>
+                  </a>
+                </li>
+                <p class="footer-copyright ">© 2018 tous les droits sont réservés.site créé par Guizani Rahma </p>
+        
+            </div>
+        
+           
+          </footer>
+   
+     </body>
+     </html>
+

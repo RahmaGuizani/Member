@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <html> 
+   <head> 
+        <link rel="stylesheet" href="inscri.css">
+        <link rel="stylesheet" href="membre.css">
+        <script type="text/javascript" src="membre.js"></script>
+  <title> Javascript form validation </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<meta charset="utf-8"> <!--tebda biha el programme bech ta3ml les titre -->
+   </head> 
+ 	<!--body nekteb fih contunu-->
+ 	<body> 
+ 	<header>
+   
+      <nav class="navbar navbar-default">
+              <a class="navbar-brand" href="#">ESPACE MEMBRE</a>
+            <ul class="nav  navbar-nav mr-auto">
+              <li><a  class="nav_acceuil" href="acceuil.html">ACCEUIL</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a  href="inscri.html">S'INSECRIRE</a></li>
+              <li><a href="connect.html">SE CONNECTER</a></li>
+            </ul>
+        </nav>
+  </header> 
+<main>
+<section id="inscription">
+        
+    <h1 class="titre_inscr">Inscrivez-Vous</h1>
+        <form onsubmit="return validateform()" action="#" >
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        <input id="name" type="txt" class="form-control" name="name" placeholder="Nom Complet" onblur=" return validatename()">
+        </div>  <div id="eresult1" style="color:red"></div>
+        <div class="input-group">
+         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+         <input id="pseudo" type="txt" class="form-control" name="pseudo" placeholder="Pseudo"onblur= "return validatepseudo()">
+         </div> <div id="eresult2" style="color:red"></div>
+         <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input id="email1" type="email" class="form-control" name="email1" placeholder="email" onblur="return validatemail()">
+        </div><div id="eresult3" style="color:red"></div>
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input id="password" type="password" class="form-control" name="password" placeholder="Password" onblur="return validatepassword()">
+        </div> <div id="eresult4" style="color:red"></div>
+        <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="confirmation_password" type="password" class="form-control" name="confirmation_password" placeholder="Confirmation Password" onblur="return validatepasswordconfirmation()">
+        </div><div id="eresult6" style="color:red"></div> <div id="eresult5" style="color:green"></div>
+            <div class="choice"><label class="checkbox-inline"><input type="checkbox" value="">J'accepte <a class="green" href="">les termes et conditions</a></label><br>
+                <button   id="submit">S'INSECRIRE</button> 
+             <div  class="inscrit"><p class="checkbox-inline2">Vous avez deja un compte? <a class="green" href="connect.html">Connecter vous</a></p></div>  
+         </div>
+        
+    </form>                     
+</section>    
+</main>
+  <footer class="footer">
+        <!-- link facebook -->
+          <div class="container">
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fa fa-facebook"> </i>
+                </a>
+              </li>
+      <!-- link twitter -->
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i class="fa fa-twitter"> </i>
+                </a>
+              </li>
+      <!-- link google -->
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                  <i class="fa fa-google-plus"> </i>
+                </a>
+              </li>
+      <!-- link facebook -->
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i class="fa fa-linkedin"> </i>
+                </a>
+              </li>
+              <p class="footer-copyright ">© 2018 tous les droits sont réservés.site créé par Guizani Rahma </p>
+      
+          </div>
+      
+         
+        </footer>
+           </body>
+           </html>
+      

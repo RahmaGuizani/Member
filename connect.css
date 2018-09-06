@@ -1,0 +1,42 @@
+@media only screen and (max-width:411px){
+    
+#connection{
+    background-color:blue;
+
+    }
+    nav{
+    padding: 0vw 6vw 0vw 6vw;
+    }
+    .nav_acceuil{color:yellowgreen;}
+    ul{list-style-type: none;}
+    
+    #submit{width: 20vw;
+        height: 3vw;
+        border-radius: 0.333em; 
+        background-color:gainsboro;}
+    .input-group { padding: 0.9vw;
+       width: 40vw;
+    }
+    .choice{padding:2vw;}
+    .footer{background-color: black;
+    }
+.footer-copyright{color:rgb(156, 187, 216);
+}
+.green{color:greenyellow;}
+.input-group-addon{background-color: #145784;}
+.input-group  {margin-left: 50vw;}
+.checkbox-inline{margin-left: 55vw;}
+.checkbox-inline2{margin-left: 55vw;}
+#submit{margin-left: 55vw;
+margin-top: 1vw;}
+.txt2{
+    position: relative;
+    top:10vw;}
+#eresult1{ margin-left: 55vw;}
+#eresult2{ margin-left: 55vw;}
+#eresult3{ margin-left: 55vw;}
+#eresult4{ margin-left: 55vw;}
+#eresult5{ margin-left: 55vw;}
+#eresult6{ margin-left: 55vw;}
+#eresult7{ margin-left: 55vw;}
+.inscrit0{margin-left: 64vw;}  }  

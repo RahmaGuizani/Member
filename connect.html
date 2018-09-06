@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html> 
+   <head> 
+      <link rel="stylesheet" href="membre.css">
+        <link rel="stylesheet" href="connect.css">
+        <script type="text/javascript" src="membre.js"></script>
+  <title> Javascript form validation </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<meta charset="utf-8"> <!--tebda biha el programme bech ta3ml les titre -->
+   </head> 
+   <body> 
+        <header>
+      
+         <nav class="navbar navbar-default">
+                 <a class="navbar-brand" href="#">ESPACE MEMBRE</a>
+               <ul class="nav  navbar-nav mr-auto">
+                 <li><a  class="nav_acceuil" href="acceuil.html">ACCEUIL</a></li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a  href="inscri.html">S'INSECRIRE</a></li>
+                 <li><a href="connect.html">SE CONNECTER</a></li>
+               </ul>
+           </nav>
+     </header> 
+<main>
+    <section id="connection">
+        <h1 class="titre_inscr">Connectez-Vous</h1>
+            <form  onsubmit="return validateform1()" action="acceuil.html"  >
+            <div class="input-group">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+             <input id="pseudo" type="txt" class="form-control" name="pseudo" placeholder="Pseudo" onblur= "return validatepseudo()">
+             </div><div id="eresult2" style="color:red"></div>
+             <div class="input-group">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+             <input id="password" type="password" class="form-control" name="password" placeholder="Password" onblur="return validatepassword()">
+            </div> <div id="eresult4" style="color:red"></div> 
+        
+            <div class="choice0"><label class="checkbox-inline"><input type="checkbox" value="">Restez connecté <a class="green1" href=""> Mot de passe oublié</a></label>
+                <div  class="inscrit0"><p class="checkbox-inline0">Vous avez deja un compte? <a class="green" href="">Connecter vous</a></p></div>  
+            </div>     
+                <button  id="submit" >SE CONNECTER</button> 
+                 <div  class="inscrit"><p class="checkbox-inline2">Vous n'avez pas un compte? <a class="green" href="inscri.html">Insecrivez  vous</a></p></div>  
+             </div>
+            
+        </form>           
+                
+    </section>       
+    </main>
+    <footer class="footer">
+            <!-- link facebook -->
+              <div class="container">
+                <ul class="list-unstyled list-inline text-center">
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                      <i class="fa fa-facebook"> </i>
+                    </a>
+                  </li>
+          <!-- link twitter -->
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                      <i class="fa fa-twitter"> </i>
+                    </a>
+                  </li>
+          <!-- link google -->
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                      <i class="fa fa-google-plus"> </i>
+                    </a>
+                  </li>
+          <!-- link facebook -->
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                      <i class="fa fa-linkedin"> </i>
+                    </a>
+                  </li>
+                  <p class="footer-copyright ">© 2018 tous les droits sont réservés.site créé par Guizani Rahma </p>
+          
+              </div>
+          
+             
+            </footer>
+               </body>
+               </html>
+   
+     

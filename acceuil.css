@@ -1,0 +1,55 @@
+@media only screen and (max-width:475px){
+main{
+    width: 100vw;
+}
+#hello_section {
+    background-color: azure ;}
+nav{
+    padding: 0vw 6vw 0vw 6vw;
+    width:20vw ;
+    }
+.navbar navbar-default{width: 100px;}
+.nav_acceuil{color:yellowgreen;}
+ul{list-style-type: none;}
+    .txt{color: red;
+        font-size: 25px;}
+        #Newslettre{background-color: whitesmoke;
+            visibility: hidden;
+        }
+        .txt_hello{ border-style: solid; 
+            border-color :wheat;
+            -webkit-border-radius: 0.8em;
+            -moz-border-radius: 0.8em;
+            border-radius: 0.8em;
+           width:15px;
+        position: relative;
+        top:20vw;
+        left:10vw;}
+        .news_lettre{position: relative;
+            left :25vw;}
+            .titre{position: relative;
+                left: 10vw;
+                }
+               
+                #email{  font-size:250px;  
+                    margin-bottom: 1em;
+                    border-style: solid; 
+                    -webkit-border-radius: 0.333em;
+                    -moz-border-radius: 0.333em;
+                    border-radius: 0.333em;
+                    border-color:whitesmoke ;
+            }
+            .email-icone {  font-size: 30px;
+                position:relative ;
+                left:33vw;
+            }
+            .Name{color:rgb(242, 118, 38);
+                font-size: 20px;
+                position: relative;
+                left:12vw;
+                top:1.5vw;}
+            .footer{background-color: black;
+            }
+        .footer-copyright{color:rgb(156, 187, 216);
+        }
+    }
